@@ -1,0 +1,13 @@
+.img-size{
+    height: 150px;
+    width: 100%;
+}
+
+  
+  /* Bottom right text */
+  .text-block {    
+    bottom: 100px;
+    left: 100px;
+    color: white;    
+    font-size: 30px;
+  }
