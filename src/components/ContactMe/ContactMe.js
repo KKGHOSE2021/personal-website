@@ -4,11 +4,12 @@ import './ContactMe.css'
 
 const ContactMe = () => {
     const sendEmail = (e) => {
-        e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+        e.preventDefault();   
     
-        emailjs.sendForm('service_1by99v6', 'template_c1tx6va', e.target, 'user_BPYNtdRA0qvmQtrZhinc9')
+        emailjs.sendForm('service_1by99v6', 'template_deub7aj', e.target, 'user_BPYNtdRA0qvmQtrZhinc9')
           .then((result) => {
-              window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+              window.location.reload();
+              console.log(result.text); 
           }, (error) => {
               console.log(error.text);
           });
@@ -39,10 +40,7 @@ const ContactMe = () => {
                 <br/>
                 <input className="bg-info mt-3 btn-lg" type="submit" value="Send" />
             </form>
-            </div>
-            <div className="col">                
             </div>            
-            
         </div>
 
     );

@@ -9,7 +9,7 @@ const WhoAmI = () => {
         <div class="container mt-5 text-center">
             <h2 className="mb-3 text-info">React Front-end Developer</h2>
             <hr />
-            <p className="text-secondary">Hi. I'm <span className="text-info font-weight-bold">Satya Ranjan</span>, a react-based front-end developer with experience creating successful <span className="text-warning font-weight-bold">RESPONSIVE WEBSITES</span> using <span className="text-success font-weight-bold">MERN</span> technology by implementing <span className="text-primary font-weight-bold">CRUD</span> architectural style, that are fast, easy to use.</p>
+            <p className="text-secondary">Hi. I'm <span className="text-info font-weight-bold">Satya Ranjan</span>, a react-based front-end developer with experience creating <span className="text-warning font-weight-bold">RESPONSIVE WEBSITES</span> using <span className="text-success font-weight-bold">MERN</span> technology by implementing <span className="text-primary font-weight-bold">CRUD</span> architectural style, that are fast, easy to use.</p>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
                 <div class="col">
                     <div class="card h-100">
