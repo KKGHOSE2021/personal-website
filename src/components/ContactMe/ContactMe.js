@@ -37,7 +37,7 @@ const ContactMe = () => {
                 <br/>
                 <textarea placeholder="Please write your message here..." name="html_message" />
                 <br/>
-                <input className="bg-info mt-3" type="submit" value="Send" />
+                <input className="bg-info mt-3 btn-lg" type="submit" value="Send" />
             </form>
             </div>
             <div className="col">                

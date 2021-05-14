@@ -1,0 +1,7 @@
+ul{
+    margin-left: 20px;
+    padding: 0;
+}
+ul.a{
+    list-style-type: square; 
+}
